@@ -18,9 +18,4 @@ describe('AppComponent', () => {
     const app = fixture.componentInstance;
     expect(app.title).toEqual('angular-template');
   });
-
-  it('should not work', () => {
-    expect(2 + 2).toBe(5);
-  });
-
 });
