@@ -26,7 +26,10 @@ jobs:
       continue-on-error: false
 
     - name: Bump Version
-      run: npm version patch -m "Bump version to %s [skip ci]" --force
+      run: |
+        git config --global user.email "ci/cdGithub@mail.pl"
+        git config --global user.name "Github-Ci/Cd"
+        npm version patch -m "Bump version to %s [skip ci]" --force
 
     - name: Build Application
       run: npm run build
