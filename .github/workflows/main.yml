@@ -25,6 +25,9 @@ jobs:
       run: npm run test
       continue-on-error: false
 
+    - name: Bump Version
+      run: npm version patch -m "Bump version to %s [skip ci]" --force
+
     - name: Build Application
       run: npm run build
       continue-on-error: false
