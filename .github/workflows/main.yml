@@ -43,3 +43,5 @@ jobs:
           action: "upload"
           app_location: "/"
           app_artifact_location: "dist/angular-template"
+        env: 
+          NODE_VERSION: 20.9.0
