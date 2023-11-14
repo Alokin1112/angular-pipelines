@@ -81,8 +81,28 @@
         "hash": "3882268627474231753"
       },
       {
+        "file": ".github/workflows/main.yml",
+        "hash": "7537951597604043382"
+      },
+      {
         "file": ".gitignore",
         "hash": "4689145951703824387"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "13022620484086457519"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "9939768930852640538"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "4684165978997043907"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "9346268479235696671"
       },
       {
         "file": ".vscode/extensions.json",
@@ -114,15 +134,15 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "16873616329734666889"
+        "hash": "17076483101951034290"
       },
       {
         "file": "package.json",
-        "hash": "9835345373833029712"
+        "hash": "8493566244416309190"
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "5171816876129268568"
+        "hash": "9001423418850107704"
       },
       {
         "file": "src/app/app.component.scss",
@@ -130,11 +150,11 @@
       },
       {
         "file": "src/app/app.component.spec.ts",
-        "hash": "8755196805516505405"
+        "hash": "2491086690650437722"
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "10800643300503607082"
+        "hash": "7385745676539949739"
       },
       {
         "file": "src/app/app.routing.ts",
@@ -178,11 +198,11 @@
       },
       {
         "file": "src/environments/environment.interface.ts",
-        "hash": "7182998778932443344"
+        "hash": "5684131604692365118"
       },
       {
         "file": "src/environments/environment.ts",
-        "hash": "15555888611026417538"
+        "hash": "13503205270034689718"
       },
       {
         "file": "src/favicon.ico",
@@ -218,15 +238,15 @@
       },
       {
         "file": "tsconfig.app.json",
-        "hash": "1322483135021572888"
+        "hash": "13190061534220337291"
       },
       {
         "file": "tsconfig.json",
-        "hash": "348692903078268777"
+        "hash": "10870025615492418622"
       },
       {
         "file": "tsconfig.spec.json",
-        "hash": "14701860812137490493"
+        "hash": "2388465213790249706"
       }
     ]
   }
