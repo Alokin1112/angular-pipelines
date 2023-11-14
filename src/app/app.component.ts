@@ -1,7 +1,7 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NgSwitch, NgSwitchDefault, NgSwitchCase, CommonModule } from '@angular/common';
-import { environment } from '@env/environment';
+import packageJson from '../../package.json';
 
 @Component({
   selector: 'ds-root',
@@ -12,5 +12,5 @@ import { environment } from '@env/environment';
 })
 export class AppComponent {
   title = 'angular-template';
-  environment = environment;
+  version = (packageJson as { version: string }).version;
 }
